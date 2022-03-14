@@ -1,37 +1,37 @@
-hw5：
-給定一篇來自野生環境的英文新聞文章，統計出以下內容：
-空格（Space）字元數（空格字元即為 ASCII 0x20 (32)） 
-空白（Whitespace）字元數（根據 http://www.cplusplus.com/reference/cctype/isspace/ 所定義的空白字元）
-小寫字母（Lowercase）數
-大寫字母（Uppercase）數
-數字（Digit）字數
-不分大小寫（Case-insensitive）字母數
-全篇幅 Bytes 數（提示：這也是這個檔案的大小）
-字詞（Word）數（以「空白（Whitespace）」為分隔點）
-總行（Line）數（行的定義為該行必須有多於 0 個字元，此方能成行）
+hw5:
+Given an English news article , count the following:
+Number of space characters (a space character is ASCII 0x20 (32))
+Number of Whitespace characters (whitespace characters as defined by http://www.cplusplus.com/reference/cctype/isspace/)
+Number of lowercase
+Number of uppercase
+Number of digit
+Number of case-insensitive letters
+Bytes (the size of this file)
+Number of words (separated by "Whitespace")
+The total number of lines (Line) (the definition of a line is that have more than 0 character)
 
-hw6：
-給定一篇來自野生的英文新聞文章，請輸出以下內容：
-如果第一個單字在該行中出現兩次以上，則輸出該行
-輸出最長單字以及其長度
-若有相同長度的單字，則按照出現時間依序輸出；若有重複的單字則略過，參考範例輸出。
-輸出文章中所有單字 (以空白(White space)、逗號(,)、句號(.)、雙引號(")、冒號(:)、驚嘆號(!)、問號(?)、左括號 '(' 以及右括號 ')' 做分隔)
-按照單字出現時間依序輸出，參考範例輸出
+hw6:
+Given an English news article, output the following:
+If the first word appears more than twice on the line, output the line
+Print the longest word and its length
+If there are words of the same length, they will be output in sequence according to the time of appearance; if there are repeated words, it will be skipped.
+Output all words in the article (with white space, comma (,), period (.), double quotation mark ("), colon (:), exclamation mark (!), question mark (?), opening bracket '(' and Close parenthesis ')' to separate)
+Output in sequence according to the appearance time of the words.
 
-hw8：
-請撰寫一個程式，從 stdin 讀入資料，依照不同參數來進行動作。
-i	新增資料
-					e.g.	 i  n:sandy    	m:99    	e:98    	p:100
-    						n 代表資料為NAME
-								m 代表資料為MATHSCORE
-								e 代表資料為 ENGLISHSCORE
-								p 代表資料為 PROGSCORE
-d	刪除，刪除比對相同的資料
-u	更新，對資料進行更新
-p	印出資料
+hw8:
+Please write a program that reads data from stdin and performs actions according to different parameters.
+i Add data
+e.g. i n: sandy m: 99 e: 98 p: 100
+    n represents the data as NAME
+    m represents MATHSCORE
+    e represents the data as ENGLISHSCORE
+    p stands for PROGSCORE
+    d delete, delete and compare the same data
+    u update, update the data
+    p print out data
 
-hw9：
-請寫出一排序程式程式提供以下參數，預設排序順序為由小到大
--h --help usage	
--n 使用數值比較
--r 反向輸出
+hw9:
+Please write a sorting program. The program provides the following parameters, the default sorting order is from small to large
+-h --help usage
+-n use numeric comparison
+-r reverse output
